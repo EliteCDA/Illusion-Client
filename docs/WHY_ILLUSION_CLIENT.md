@@ -1,243 +1,166 @@
+# 💠 Why Illusion Client
+
 <div align="center">
 
-💠 Why Choose Illusion Client?
-A next‑generation performance & PvP client engineered for Minecraft 1.21.11
-Illusion Client isn’t a modpack, a preset, or a template.
-It is a custom‑built Fabric client with real engine‑level optimizations, real mixins, real UI code, and real anti‑tamper protection — designed for players who take PvP seriously.
+![Java](https://img.shields.io/badge/Java-17+-orange?style=flat-square)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-brightgreen?style=flat-square)
+![Engine Optimized](https://img.shields.io/badge/Engine-Optimized-8A2BE2?style=flat-square)
+![PvP Focused](https://img.shields.io/badge/PvP-Focused-FF5555?style=flat-square)
+
+**A next‑generation performance & PvP client engineered for Minecraft 1.21.11**
 
 </div>
 
-⚡ Engine‑Level Performance (Real Optimizations)
-Illusion Client includes true performance patches — not placebo toggles.
+---
 
-✔ ParticleEngineMixin
-Caps particle creation at runtime → instant GPU relief.
+## 📌 Overview
 
-✔ LevelRendererMixin (Entity Culling)
-Skips rendering entities outside the frustum → real FPS gains in crowded areas.
+Illusion Client is **not** a modpack, preset, or template.  
+It is a **fully engineered Fabric client** built for players who take PvP seriously — with real engine‑level optimizations, real mixins, real UI code, and real anti‑tamper protection.
 
-✔ GameRendererMixin (Fullbright)
-Overrides gamma at the engine level → clean, stable fullbright.
+Where other clients flip a few settings, Illusion Client modifies the **actual game engine** and UI pipeline to deliver measurable, repeatable improvements you can feel in combat.
 
-✔ FpsBoostModule
-Directly writes to Minecraft’s internal options API for 1.21.11:
+---
 
-Clouds
+## ⚡ Engine‑Level Performance (Real Optimizations)
 
-Shadows
+Illusion Client implements **real engine changes**, not placebo toggles.
 
-Smooth lighting
+### ✔ ParticleEngineMixin  
+Caps particle creation at runtime → **instant GPU relief**.
 
-Particle mode
+### ✔ LevelRendererMixin (Entity Culling)  
+Skips rendering entities outside the frustum → **real FPS gains** in crowded areas.
 
-Lighting engine toggles
+### ✔ GameRendererMixin (Fullbright)  
+Overrides gamma at the engine level → **clean, stable fullbright**.
 
-These are real engine calls, not UI tricks.
+### ✔ FpsBoostModule  
+Writes directly to Minecraft’s internal options API for 1.21.11:
+- Clouds  
+- Shadows  
+- Smooth lighting  
+- Particle mode  
+- Lighting engine toggles
 
-🎯 PvP Modules Built in Real Java
-Every PvP module is a real class with real logic — not a config preset.
+These are **engine calls**, not UI tricks.
 
-CPS Counter
+---
 
-Keystrokes
+## 🎯 PvP Modules Built in Real Java
 
-Armour Durability
+Every PvP feature is a real class with real logic — not a preset or overlay.
 
-Potion Timer
+- CPS Counter  
+- Keystrokes HUD  
+- Armour Durability  
+- Potion Timer  
+- Reach Display  
+- Sprint Toggle  
+- Combo Counter (event‑driven)  
+- Hit Flash (mixin‑based)
 
-Reach Display
+Modules read **live game values** and update in real time.
 
-Sprint Toggle
+---
 
-Combo Counter (event‑driven)
+## 🎨 A Custom UI Framework (Not a Template)
 
-Hit Flash (mixin‑based)
+Illusion Client ships a hand‑coded UI system with production polish:
 
-These modules read live game values from the client.
+- Animated Right‑Shift menu  
+- Violet active‑tab underline  
+- Lerp‑animated toggle pills  
+- Hover highlights  
+- Smooth open animation (scale + alpha)  
+- Updated drawText usage for 1.21.11  
+- Full settings architecture (IllusionConfig)
 
-🎨 A Custom UI Framework (Not a Template)
-Illusion Client includes a hand‑coded UI system:
+It looks and feels like a native client UI, not a copied template.
 
-Animated Right‑Shift menu
+---
 
-Violet active‑tab underline
+## 🧠 Smart Configuration System
 
-Lerp‑animated toggle pills
+- **Gson‑backed config** stored in `.minecraft/illusion/`  
+- Auto‑save on every toggle  
+- Per‑module settings and profiles  
+- Real‑time updates — no restart required
 
-Hover highlights
+This behaves like a proper application configuration system.
 
-Smooth open animation (scale + alpha)
+---
 
-Updated drawText API for 1.21.11
+## 🛡️ Anti‑Copying Protection (Real IP Protection)
 
-Full settings architecture (IllusionConfig)
+Illusion Client includes multiple protection layers to protect your compiled builds:
 
-This UI is unique to your client — not copied from any other project.
+### 🔐 ProGuard Obfuscation  
+Class and method names are obfuscated; line numbers removed.
 
-🧠 Smart Configuration System
-Illusion Client uses a Gson‑backed config system with:
+### 🔑 XOR String Encryption  
+Visible strings are stored encrypted and decoded at runtime.
 
-Auto‑save on every toggle
+### 🧬 Cryptographic Watermark  
+Each build contains a SHA‑256 fingerprint tied to your private seed and build metadata so you can prove ownership.
 
-Per‑module settings
+These measures protect the distributed JAR from trivial copying and decompilation.
 
-Real‑time updates
+---
 
-Clean storage in .minecraft/illusion/
+## 🧱 Built for Minecraft 1.21.11
 
-No restart required
+This release is targeted and tested for:
 
-It behaves like a real application, not a mod.
+- **Fabric Loader:** 0.18.4  
+- **Fabric API:** 0.141.1+1.21.11  
+- **Loom:** 1.14  
+- **Yarn:** 1.21.11+build.1
 
-🛡️ Anti‑Copying Protection (Unique to Illusion Client)
-Your client includes three layers of real IP protection:
+All API changes for 1.21.11 have been handled (HudRenderCallback, Options API, drawText signature, gamma API, etc.).
 
-🔐 ProGuard Obfuscation
-All classes → a, b, c  
-All methods → single letters
-Line numbers removed
-Decompiler output becomes unreadable.
+---
 
-🔑 XOR String Encryption
-All strings (UI labels, module names, etc.) are stored as encrypted integer arrays.
-Decompilers see garbage, not readable text.
+## 🔧 Fully Implemented Features
 
-🧬 Cryptographic Watermark
-Each build contains a unique SHA‑256 fingerprint tied to:
+### ✔ Working now
+- FPS Boost  
+- Particle limiter  
+- Fullbright  
+- Sprint toggle  
+- Zoom  
+- HUD modules (FPS, Ping, CPS, Keystrokes)  
+- Config system  
+- UI animations
 
-Your private seed
+### ✔ Completed fixes
+- Entity culling with frustum check  
+- Frame cap slider UI and logic  
+- Smooth FPS smoothing logic  
+- Chunk animation toggle  
+- Combo counter event hook  
+- Hit flash effect  
+- Custom crosshair rendering
 
-The version
+Everything in the menu now performs the action it advertises.
 
-The build timestamp
+---
 
-If someone copies your JAR, you can prove it’s yours.
+## 🛠️ Developer‑Grade Build System
 
-This is real protection, not just a license file.
+- Full Gradle project with Loom  
+- ProGuard integration for obfuscation  
+- Mixins and fabric.mod.json  
+- IntelliJ project structure and genSources steps  
+- Build tutorial and troubleshooting guide  
+- Version‑locked dependencies for reproducible builds
 
-🧱 Fully Updated for Minecraft 1.21.11
-Illusion Client is built specifically for your version:
+This is a professional codebase, not a hobby folder.
 
-Fabric Loader 0.18.4
+---
 
-Fabric API 0.141.1+1.21.11
+<div align="center">
 
-Loom 1.14
+**🔥 Built for players who take PvP seriously.**
 
-Yarn 1.21.11+build.1
-
-And includes fixes for all breaking changes in 1.21.11.
-
-🔧 Everything Works — Fully Implemented
-After the audit, all incomplete features were rebuilt:
-
-✔ Fully working
-FPS Boost
-
-Particle limiter
-
-Fullbright
-
-Sprint toggle
-
-Zoom
-
-HUD modules
-
-Ping HUD
-
-FPS counter
-
-Config system
-
-UI animations
-
-✔ Now fully implemented
-Entity culling (real frustum check)
-
-Frame cap slider
-
-Smooth FPS logic
-
-Chunk animation toggle
-
-Combo counter event hook
-
-Hit flash effect
-
-Custom crosshair
-
-Everything in the menu now does something real.
-
-🛠️ A Complete Developer‑Grade Build System
-Illusion Client includes:
-
-Full Gradle project
-
-ProGuard integration
-
-Mixins
-
-Fabric mod descriptor
-
-IntelliJ project structure
-
-Build tutorial
-
-Troubleshooting guide
-
-Version‑locked dependencies
-
-This is a real software project, not a hobby folder.
-
-🏆 A Client With a Real Identity
-Between:
-
-The violet UI theme
-
-The custom animations
-
-The performance modules
-
-The PvP tools
-
-The anti‑tamper system
-
-The documentation
-
-The extended license
-
-The build guide
-
-The changelog
-
-Illusion Client feels like a premium, branded product — not a mod.
-
-🔥 Built for Players Who Want a Competitive Edge
-Illusion Client is:
-
-Fast
-
-Clean
-
-Responsive
-
-Stable
-
-Secure
-
-Legally protected
-
-Technically sound
-
-PvP‑focused
-
-Modern
-
-Unique
-
-It’s not a cheat client.
-It’s not a modpack.
-It’s not a settings preset.
-
-It’s a real client, engineered for players who take PvP seriously.
+</div>

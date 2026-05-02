@@ -237,7 +237,7 @@ IllusionDev retains exclusive ownership evidence including:
 
 ## 11. DMCA PROCEDURE & TAKEDOWN NOTICES
 
-If you discover an unauthorized copy or derivative work of IllusionClient, you may report it via DMCA.
+If you discover an unauthorized copy or derivative work of IllusionClient, you may report it via DMCA or contact IllusionDev directly.
 
 A valid DMCA notice must include:
 
@@ -249,7 +249,7 @@ A valid DMCA notice must include:
 - Statement of accuracy under penalty of perjury
 - Your signature (physical or electronic)
 
-**DMCA notices must be submitted to:** [Contact information to be added by user]
+**DMCA notices may be submitted to:** Discord: **elite_original**
 
 Platforms receiving valid DMCA notices must act promptly under 17 U.S.C. § 512(c) and the EU Copyright Directive.
 
@@ -291,12 +291,12 @@ If this license conflicts with any platform policy, the most restrictive terms a
 
 ## 14. GOVERNING LAW & JURISDICTION
 
-This License is governed by the laws of **[Your Jurisdiction - to be specified by user]**, without regard to conflicts of law principles.
+This License is governed by the laws of the **United Kingdom**, specifically England and Wales, without regard to conflicts of law principles.
 
 All legal proceedings, disputes, and claims arising from this License or the use of the Software shall be:
 
-- **Exclusive Jurisdiction:** Brought exclusively in the courts of [Your Jurisdiction]
-- **Venue:** Subject to the exclusive venue of [Your Jurisdiction]
+- **Exclusive Jurisdiction:** Brought exclusively in the courts of England and Wales
+- **Venue:** Subject to the exclusive venue of the High Court of Justice or Courts of England and Wales
 - **Dispute Resolution:** Any party waives the right to jury trial
 
 By using IllusionClient, you consent to personal jurisdiction and venue in these courts.
@@ -339,9 +339,7 @@ No modification, waiver, or amendment to this License is valid unless made in wr
 For inquiries, licensing requests, or DMCA notices, contact:
 
 **IllusionDev**  
-[Email: to be added by user]  
-[Discord: to be added by user]  
-[Website: to be added by user]
+Discord: **elite_original**
 
 ---
 

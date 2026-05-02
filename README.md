@@ -628,6 +628,9 @@ By using Illusion Client, you acknowledge that you've read and agreed to this di
 
 **Made for players who take PvP seriously.**
 
+👉 **Learn more:** [Why Illusion Client?](docs/WHY_ILLUSION_CLIENT.md)
+
+
 [⬆ back to top](#-illusion-client)
 
 </div>

@@ -98,19 +98,6 @@ Whether you're grinding ranked PvP, competing in tournaments, or just want the s
 
 ---
 
-## 🆕 What's New
-
-### Latest Release (v1.2.0)
-- ✨ New "Competitive Extreme" preset with ultra-low latency settings
-- 🐛 Fixed animation stuttering on high-refresh-rate displays
-- 🚀 Improved render distance optimization algorithm
-- 🎨 Added custom color schemes
-- 📊 Enhanced performance monitoring overlay
-
-See [Changelog](./CHANGELOG.md) for full version history.
-
----
-
 ## 📊 Performance Benchmarks
 
 Tested on multiple configurations. Results may vary based on your system:

@@ -550,8 +550,6 @@ Have an idea? [Open a Discussion](https://github.com/EliteCDA/Illusion-Client/di
 - Documentation improvements
 - UI/UX enhancements
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
-
 ---
 
 ## 🗺️ Roadmap
@@ -580,7 +578,7 @@ Have suggestions? Vote on features in [Discussions](https://github.com/EliteCDA/
 
 ## 📝 License
 
-This project is licensed under the **MIT License**. See the [LICENSE]((https://github.com/EliteCDA/Illusion-Client/blob/main/license.md)) file for full details.
+This project is licensed under the **MIT License**. See the [LICENSE](license.md) file for full details.
 
 **Summary:** You're free to use, modify, and distribute Illusion Client for personal and commercial purposes, provided you include the license notice.
 

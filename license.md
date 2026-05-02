@@ -1,42 +1,49 @@
-ILLUSIONCLIENT — Proprietary License & Intellectual Property Notice
-Version 1.0.0 • Minecraft 1.21.11 • Fabric Mod  
+ILLUSIONCLIENT — PROPRIETARY LICENSE
+Version 1.0.0  
+Minecraft 1.21.11 • Fabric Mod  
 © IllusionDev — All Rights Reserved  
-CONFIDENTIAL
+CONFIDENTIAL LEGAL DOCUMENT
+
+NOTICE
+This is a proprietary software license.
+You may use the compiled software, but you may not copy, modify, distribute, or access the source code.  
+By using IllusionClient, you agree to all terms below.
 
 1. Ownership
 IllusionClient (“the Software”) is an original work created exclusively by IllusionDev.
-This includes all source code, compiled bytecode, configuration files, assets, logic, architecture, algorithms, GUI layouts, HUD systems, and documentation.
+
+This includes:
+
+All source code and compiled bytecode
+
+All configuration files and resources
+
+All GUI layouts, HUD systems, and module designs
+
+All algorithms, logic, and architecture
+
+All documentation
 
 Copyright © IllusionDev.
 All Rights Reserved.
 
-This Software is protected under international copyright law, including:
-
-Berne Convention
-
-DMCA (United States)
-
-Copyright, Designs and Patents Act 1988 (UK)
-
-EU Directive 2009/24/EC
-
-All applicable national and international IP laws
+Protected under international law including the Berne Convention, DMCA, UK CDPA 1988, EU Directive 2009/24/EC, and all applicable national laws.
 
 2. Protected Works
-The following components are protected intellectual property:
+The following components are protected intellectual property.
 
 2.1 Source Code
-All Java source files under com.illusion.client
+Java source files under com.illusion.client
 
 Mod entry point and lifecycle code
 
 IllusionConfig system
 
-IllusionMenuScreen GUI and animations
+IllusionMenuScreen GUI + animations
 
 All Mixin classes
 
-HudModule base class and HudRenderer
+HudModule base class + HudRenderer
 
 PvP modules (CPS Counter, Keystrokes, Armour Durability, Potion Timer, Reach Display, Sprint Toggle, Combo Counter)
 
@@ -58,16 +65,18 @@ XOR string obfuscation
 SHA‑256 build watermarking
 
 2.3 Build Configuration
-Gradle build scripts and ProGuard pipeline
+Gradle build scripts
+
+ProGuard obfuscation pipeline
 
 ProGuard rules
 
-Fabric mod descriptor and Mixin config
+Fabric mod descriptor + Mixin config
 
-3. Prohibited Acts
-Without explicit written permission from IllusionDev, the following are strictly prohibited:
+3. Prohibited Actions
+The following actions are strictly prohibited without written permission from IllusionDev:
 
-Copying or duplicating any portion of the source code
+Copying or duplicating any part of the source code
 
 Decompiling the JAR and using the resulting code
 
@@ -89,12 +98,12 @@ Reverse engineering obfuscated components
 
 Any violation constitutes copyright infringement.
 
-4. Permitted Acts
+4. Permitted Actions
 The following uses are allowed:
 
 Personal use of the compiled JAR
 
-Sharing the compiled JAR for gameplay if this notice remains intact
+Sharing the compiled JAR for gameplay if this license remains intact
 
 Reporting bugs or issues
 
@@ -104,16 +113,16 @@ Referencing the Software by name for commentary or review
 
 Any use not explicitly listed as permitted is prohibited.
 
-5. Technical Protection Measures
-IllusionClient includes multiple TPMs (Technical Protection Measures):
+5. Technical Protection Measures (TPMs)
+IllusionClient includes multiple TPMs:
 
 5.1 Cryptographic Watermark
 Each build contains a unique SHA‑256 fingerprint that survives decompilation and repacking.
 
 5.2 String Encryption
-All string constants are XOR‑encrypted with a multi‑fragment private key.
+All string constants are XOR‑encrypted using a multi‑fragment private key.
 
-5.3 ProGuard Bytecode Obfuscation
+5.3 ProGuard Obfuscation
 The JAR is obfuscated to prevent reverse engineering.
 
 Circumventing any TPM is a separate legal violation.
@@ -134,7 +143,15 @@ Recovery of legal costs
 Reporting violations to platforms
 
 Evidence of Ownership
-IllusionDev retains original source code, version history, build logs, and the private seed used for watermarking.
+IllusionDev retains:
+
+Original source code
+
+Full version history
+
+Build logs
+
+Private watermark seed
 
 7. DMCA Procedure
 A valid DMCA notice requires:
@@ -143,7 +160,7 @@ Identification of the copyrighted work
 
 Identification of the infringing material
 
-Build fingerprint if available
+Build fingerprint (if available)
 
 Statement of good‑faith belief
 
@@ -171,9 +188,10 @@ ProGuard — GPLv2
 LWJGL — BSD
 
 These licenses apply only to their respective components.
-
 IllusionDev’s copyright applies exclusively to original code.
 
 9. Final Notice
 By using IllusionClient, you acknowledge and agree to all terms in this License.
 Unauthorized use, distribution, or modification is strictly prohibited.
+
+END OF LICENSE

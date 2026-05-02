@@ -1,32 +1,34 @@
 # Changelog
-All notable changes to this Minecraft 1.21.11 client will be documented here.
-
-This project follows Semantic Versioning: MAJOR.MINOR.PATCH
+All notable changes to this Minecraft 1.21.11 PvP/Optimization client will be documented here.  
+This project follows Semantic Versioning: **MAJOR.MINOR.PATCH**
 
 ---
 
 ## [Unreleased]
 
-### 🚀 New Features
-- ...
+### ⚡ Performance Improvements
+- …
 
-### 🎨 UI / HUD
-- ...
+### 🎯 Input & Responsiveness
+- …
 
-### 🧩 Modules / Features Updated
-- ...
+### 🖥️ Rendering & Visual Optimization
+- …
 
-### ⚙️ Performance & Optimization
-- ...
+### 🧠 Engine / System Tweaks
+- …
+
+### 🎨 UI / UX
+- …
+
+### 🌐 Networking / Ping Stability
+- …
 
 ### 🛠 Bug Fixes
-- ...
-
-### 🔐 Security / Anti‑Crash
-- ...
+- …
 
 ### 🧹 Removed / Deprecated
-- ...
+- …
 
 ---
 

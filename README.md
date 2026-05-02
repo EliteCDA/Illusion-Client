@@ -631,6 +631,6 @@ By using Illusion Client, you acknowledge that you've read and agreed to this di
 👉 **Learn more:** [Why Illusion Client?](docs/WHY_ILLUSION_CLIENT.md)
 
 
-[⬆ back to top](#-illusion-client)
+[⬆ Back to top](#-illusion-client)
 
 </div>

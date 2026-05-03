@@ -340,6 +340,7 @@ For inquiries, licensing requests, or DMCA notices, contact:
 
 **IllusionDev**  
 Discord: **elite_original**
+Discord Server: https://discord.gg/99fyCrFUxg
 
 ---
 

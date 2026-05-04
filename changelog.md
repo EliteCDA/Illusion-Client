@@ -14,7 +14,6 @@ This project follows Semantic Versioning: **MAJOR.MINOR.PATCH**
 (No changes in this version)
  
 ## 🖥️ Rendering & Visual Optimization
-- **Added Disable Damage Tilt**: Camera no longer shakes/tilts when taking damage (always enabled for cleaner PvP visuals)
 - Removed problematic Armor Texture mixin (caused black screen crashes in 1.21.11)
 - Removed built-in resource pack registration (Fabric API incompatibility, caused startup failures)
  
